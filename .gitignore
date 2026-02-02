@@ -53,3 +53,40 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+.env
+.env.local
+.env.*.local
+
+# --- Python (Pasta server/) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# --- Firmware/C++ (Pasta firmware/) ---
+.pio/
+.vscode/
+node_modules/
+*.elf
+*.bin
+*.o
+*.d
+*.hex
+
+# --- Docker & Banco de Dados ---
+influxdb_data/
+grafana_data/
+*.log
+
+# --- Sistema e Editores ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
